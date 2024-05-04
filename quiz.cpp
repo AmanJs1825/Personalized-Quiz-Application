@@ -53,17 +53,70 @@ int takeQuiz(const vector<Question>& questions) {
 int main() {
     // Sample quiz questions
     vector<Question> quizQuestions = {
-        {"What is the capital of France?",
-         {"London", "Paris", "Berlin", "Madrid"},
-         1 // Index of correct option (Paris)
+        {"What is the capital of India?",
+         {"Kolkata", 
+         "Mumbai", 
+         "New Delhi", 
+         "Agra"},
+         2 // Index of correct option (Paris)
         },
         {"Who is the author of 'Romeo and Juliet'?",
-         {"William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"},
+         {"William Shakespeare", 
+         "Charles Dickens", 
+         "Jane Austen", 
+         "Mark Twain"},
          0 // Index of correct option (William Shakespeare)
         },
         {"What is the chemical symbol for water?",
-         {"H2O", "CO2", "O2", "NaCl"},
+         {"H2O", 
+         "CO2", 
+         "O2", 
+         "NaCl"},
          0 // Index of correct option (H2O)
+        },
+        {"What is the capital of France?", 
+            {"Paris",
+            "London",
+            "Berlin",
+            "Rome"},
+            0
+        },
+        {  "Who painted the Mona Lisa?", {
+            
+            "Leonardo da Vinci",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Michelangelo"
+            },0
+
+        },
+        { "What is the tallest mountain in the world?", {
+            
+            "Mount Everest",
+            "K2",
+             "Mount Kilimanjaro",
+              "Denali"
+            },0
+
+        },
+        {   "Who wrote 'To Kill a Mockingbird'?", {
+                
+                 "J.K. Rowling",
+                "Stephen King",
+                "Harper Lee",
+                "Ernest Hemingway"
+             },2
+
+
+        },
+        {  "Which planet is known as the 'Red Planet'?", {
+             
+             "Venus",
+             "Jupiter",
+             "Saturn",
+             "Mars"
+            },3
+
         }
     };
 
